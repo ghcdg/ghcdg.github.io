@@ -8,7 +8,7 @@ cdg github blog
 <style type="text/css"> 
 body
 {
-font-size:70%;
+font-size:150%;
 font-family:verdana,helvetica,arial,sans-serif;
 }
 </style>
