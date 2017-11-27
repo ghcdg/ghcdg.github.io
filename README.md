@@ -25,16 +25,22 @@ function cnvs_clearCoordinates()
 {
 document.getElementById("xycoordinates").innerHTML="";
 }
-//定义星期数组
-var weekday=["星期日","星期一","星期二","星期三","星期四","星期五","星期六"];
+
+
+/* 获取系统详细日期并在页面中显示 */
+var weekday=["星期日","星期一","星期二","星期三","星期四","星期五","星期六"]; 
 //获取系统时间
+var attime;
 function clock(){
-    var time=new Date();
-    var attime=time.getFullYear()+"年"+time.getMonths()+"月"+time.getDate()+"日"+"<span style='white-space:pre;'>+"    "
-    attime= attime+time.getHours()+"时"+time.getMinutes()+"分"+time.getSeconds()+"秒"+"     星期"+week(time.get.Day());
+    var time=new Date();   
+    var day="  "+weekday[(new Date()).getDay()]; //获取星期
+    attime=time.getFullYear()+"年"+time.getMonth()+"月"+time.getDate()+"日";
+    attime=attime+"  "+time.getHours()+"时"+time.getMinutes()+"分"+time.getSeconds()+"秒"+day;
     document.getElementById("clock").value = attime;
 }
-setInterval(clock,1000);//每隔1000ms就会执行一次该代码
+//每隔1000ms就会执行一次该代码
+setInterval(clock,1000);
+
 </script>
 </head>
 
@@ -48,7 +54,7 @@ setInterval(clock,1000);//每隔1000ms就会执行一次该代码
 <br />
 <div id="xycoordinates"></div>
  
- <!--显示系统时间-->
+ <!--显示系统详细日期-->
 <form><input id="clock" type="text" size="50" /> 
  
 </body>
