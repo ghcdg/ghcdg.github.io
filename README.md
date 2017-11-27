@@ -49,7 +49,7 @@ setInterval(clock,1000);//每隔1000ms就会执行一次该代码
 <div id="xycoordinates"></div>
  
  //显示系统时间
- <div id="clock" weight=200,height=200></div> 
+<form><input id="clock" type="text" /> 
  
 </body>
 </html>
