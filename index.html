@@ -7,23 +7,10 @@
 <script type="text/javascript" src="js/getCoordinate.js"></script> 
 <script type="text/javascript" src="js/getDate.js"></script> 
 <script type="text/javascript" src="js/testCookie.js"></script>
-<script type="text/javascript">
-  if(typeof document.styleSheets!="undefined"){
-    var stylers=document.styleSheets[0];
-    alert(stylers.cssRules[0].selectorText);
-  }
-</script>
 </head>
 
 <body style="margin:0px;" background="images/background.jpg" >
-  <div>
-  		<div id="coordiv" style=" margin:0 auto;width:300px;height:150px;border:1px solid #c3c3c3"   
-  			 onmousemove="cnvs_getCoordinates(event)" onmouseout="cnvs_clearCoordinates()">
-  			 <p>把鼠标悬停在下面的矩形上可以看到坐标：</p>
-  		</div>
-  		
-  		<div id="xycoordinates" ></div>
-  		
+  <div>		
   		<div id="clock" ></div> 
  </div>
  </body>
