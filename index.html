@@ -7,6 +7,12 @@
 <script type="text/javascript" src="js/getCoordinate.js"></script> 
 <script type="text/javascript" src="js/getDate.js"></script> 
 <script type="text/javascript" src="js/testCookie.js"></script>
+<script type="text/javascript">
+  if(typeof document.styleSheets!="undefined"){
+    var stylers=document.styleSheets[0];
+    alert(stylers.cssRules[0].selectorText);
+  }
+</script>
 </head>
 
 <body style="margin:0px;" background="images/background.jpg" >
