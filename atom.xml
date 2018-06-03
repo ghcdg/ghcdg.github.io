@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>CDG Blog</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://www.dongliixa.club/"/>
+  <updated>2018-06-02T07:46:23.079Z</updated>
+  <id>https://www.dongliixa.club/</id>
+  
+  <author>
+    <name>Guang</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hello world</title>
+    <link href="https://www.dongliixa.club/2018/06/02/hello-world/"/>
+    <id>https://www.dongliixa.club/2018/06/02/hello-world/</id>
+    <published>2018-06-02T07:10:53.000Z</published>
+    <updated>2018-06-02T07:46:23.079Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="test" scheme="https://www.dongliixa.club/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>webpack-san</title>
+    <link href="https://www.dongliixa.club/2018/05/29/webpack-san/"/>
+    <id>https://www.dongliixa.club/2018/05/29/webpack-san/</id>
+    <published>2018-05-29T08:58:15.000Z</published>
+    <updated>2018-06-02T06:28:06.594Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="webpack" scheme="https://www.dongliixa.club/categories/webpack/"/>
+    
+    
+      <category term="webpack" scheme="https://www.dongliixa.club/tags/webpack/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hello-hexo</title>
+    <link href="https://www.dongliixa.club/2018/05/26/hello-hexo/"/>
+    <id>https://www.dongliixa.club/2018/05/26/hello-hexo/</id>
+    <published>2018-05-26T12:44:54.000Z</published>
+    <updated>2018-06-02T07:52:19.606Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="Getting Started" scheme="https://www.dongliixa.club/categories/Getting-Started/"/>
+    
+    
+      <category term="hexo" scheme="https://www.dongliixa.club/tags/hexo/"/>
+    
+  </entry>
+  
+</feed>
