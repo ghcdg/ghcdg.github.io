@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[webpack-san]]></title>
+    <url>%2F2018%2F05%2F29%2Fwebpack-san%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>webpack</category>
+      </categories>
+      <tags>
+        <tag>webpack</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[hello-hexo]]></title>
+    <url>%2F2018%2F05%2F26%2Fhello-hexo%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>Getting Started</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+</search>

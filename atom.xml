@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.dongliixa.club/"/>
-  <updated>2018-06-02T07:46:23.079Z</updated>
+  <updated>2018-06-02T08:25:36.562Z</updated>
   <id>https://www.dongliixa.club/</id>
   
   <author>
@@ -15,22 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>hello world</title>
-    <link href="https://www.dongliixa.club/2018/06/02/hello-world/"/>
-    <id>https://www.dongliixa.club/2018/06/02/hello-world/</id>
-    <published>2018-06-02T07:10:53.000Z</published>
-    <updated>2018-06-02T07:46:23.079Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-      <category term="test" scheme="https://www.dongliixa.club/tags/test/"/>
-    
-  </entry>
   
   <entry>
     <title>webpack-san</title>
